@@ -163,7 +163,7 @@ class _NewItemState extends State<NewItem> {
                         ? const SizedBox(
                             width: 16,
                             height: 16,
-                            child: const CircularProgressIndicator())
+                            child: CircularProgressIndicator())
                         : const Text("Add Item"),
                   )
                 ],
